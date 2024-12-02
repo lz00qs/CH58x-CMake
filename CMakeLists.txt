@@ -55,6 +55,7 @@ if (CMAKE_BUILD_TYPE STREQUAL "debug")
     set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -Wall -O0") # 禁用优化
     set(CMAKE_CXX_FLAGS_DEBUG "-DDEBUG -O0 -g")
     set(CMAKE_ASM_FLAGS_DEBUG "-DDEBUG -O0 -g")
+    add_definitions(-DDEBUG=Debug_UART0)
     message("Debug mode:${CMAKE_C_FLAGS_DEBUG}")
 else()
     set(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -Wall -O3") # 启用优化
