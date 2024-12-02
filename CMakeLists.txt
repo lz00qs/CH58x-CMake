@@ -65,6 +65,7 @@ endif()
 
 # Include directories
 include_directories(
+    ${TOOLCHAIN_INCLUDE}
     APP/include
     BLE_LIB
     HAL/include
