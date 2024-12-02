@@ -67,7 +67,7 @@ endif()
 # Include directories
 include_directories(
     ${TOOLCHAIN_INCLUDE}
-    APP/include
+    src/include
     BLE_LIB
     HAL/include
     LWNS
@@ -80,7 +80,7 @@ include_directories(
 file(
     GLOB_RECURSE
     SOURCES
-    "APP/*.c"
+    "src/*.c"
     "HAL/*.c"
     "Profile/*.c"
     "RVMSIS/*.c"
