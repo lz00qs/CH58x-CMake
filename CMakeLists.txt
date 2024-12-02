@@ -38,6 +38,8 @@ else ()
     MESSAGE(STATUS "Unsupported system!")
 endif ()
 
+set(CMAKE_SYSTEM_NAME Generic)
+
 # 项目名称以及语言
 project(${PROJECT_NAME} C CXX ASM)
 
