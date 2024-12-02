@@ -1,0 +1,3 @@
+TOOLCHAIN=/Users/Shared/MRS_Toolchain_MAC_V192/xpack-riscv-none-embed-gcc-8.2.0/bin/riscv-none-embed-
+PROJECT_NAME=ch58x-cmake
+CMAKE_BUILD_TYPE=release
